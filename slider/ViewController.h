@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    IBOutlet UISlider *slider;
+    IBOutlet UISwitch *mySwitch;
+    IBOutlet UISegmentedControl *segCtrl;
+    IBOutlet UILabel *label1;
+    IBOutlet UILabel *label2;
+    IBOutlet UILabel *label3;
+    
+}
+- (IBAction)sliderAction:(id)sender;
+- (IBAction)switchAction:(id)sender;
+- (IBAction)segAction:(id)sender;
 
 @end
